@@ -7,9 +7,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>G'Day</Text>
-      <PetDetail name="Koda"/>
-      <PetDetail name="Murphy"/>
-      <PetDetail name="Effie"/>
+      <PetDetail name="Koda" img={require('./assets/koda.jpg')}/>
+      <PetDetail name="Murphy" img={require('./assets/murphy.jpg')}/>
+      <PetDetail name="Effie" img={require('./assets/effie.jpg')}/>
     </View>
   );
 }
